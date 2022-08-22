@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    min-width: 300px;
+    max-width: 1400px;
+  }
+section {
+    margin: auto;
+    max-width: 1400px;
+  }
+  
+  nav {
+    background-color:darkgray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flower-logo{
+    width:70px;
+    padding-left: 80px;
+  }
+  .user-info{
+    display: flex;
+    padding:80px;
+    justify-content:left;
+  }
+  .user-photo{
+    border-radius: 50%;
+    border: antiquewhite;
+    width: 120px; 
+    position:relative; 
+  }
+  .paragraph{
+    text-align:left;
+    padding-left: 80px;
+  }
+  h2{
+    margin-left: 60px;
+  }
+
+  .flowers{
+    display: flex;
+    padding:80px;
+    height: 500px;  
+  }
+.footer{
+    display:flex;
+    padding: 80px;
+    justify-content:space-between;
+    margin-top: 100px;
+    
+}
+.vienas{
+    width: 150px;
+    height: 120px;
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    
+}
+.vienas p{
+    text-align:right;
+    color: antiquewhite;
+}
+.du{
+    width: 150px;
+    height: 120px;
+    background-image: url(images/2.jpg);
+    background-size: cover;  
+}
+.du p{
+    text-align:right;
+    color: antiquewhite;
+}
+.trys{
+    width: 150px;
+    height: 120px;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+   
+}
+.trys p{
+    text-align:right;
+    color: antiquewhite;
+}
+
+
